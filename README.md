@@ -1,6 +1,6 @@
 ---
 title: Proportio – Precision Proportion Calculator
-emoji: 🔶
+emoji: 🧮
 colorFrom: red
 colorTo: black
 sdk: gradio
@@ -26,7 +26,7 @@ tags:
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://python.org)
 [![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](Dockerfile)
 [![Tests](https://img.shields.io/badge/tests-58%20passing-green.svg)](tests/)
-[![MCP](https://img.shields.io/badge/MCP-compatible-purple.svg)](https://modelcontextprotocol.io)
+[![MCP Server](https://img.shields.io/badge/MCP-compatible-purple.svg)](https://modelcontextprotocol.io)
 
 **Professional mathematical calculations for proportions, percentages, and scaling operations with assertion-based validation and MCP server integration.**
 
