@@ -29,7 +29,10 @@ tags:
 **Professional mathematical calculations for proportions, percentages, and scaling operations with assertion-based validation and MCP server integration.**
 
 ---
+## Live Demo
+[HF Space Demo](https://huggingface.co/spaces/grasant/proportio)
 
+---
 ## 🎯 Overview
 
 Proportio is a specialized mathematical calculation server designed for LLM agents and applications requiring precise proportion calculations. Built with **assertion-based validation** and **zero-tolerance error handling**, it provides reliable mathematical operations through both a web interface and Model Context Protocol (MCP) integration.
