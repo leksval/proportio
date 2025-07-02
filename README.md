@@ -16,10 +16,10 @@ tags:
   - llm-tools
 ---
 
-# 🧮 PROPORTIO - Mathematical Precision Calculator
+# PROPORTIO MCP SERVER - Mathematical Precision Calculator
 
 <div align="center">
-  <img src="logo.png" alt="Proportio Logo" width="200" height="200">
+  <img src="logo_1024.png" alt="Proportio Logo" width="200" height="200">
 </div>
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
