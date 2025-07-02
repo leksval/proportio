@@ -32,23 +32,6 @@ tags:
 
 ---
 
-## 📋 Table of Contents
-
-- [🎯 Overview](#-overview)
-- [✨ Features](#-features)
-- [🚀 Quick Start](#-quick-start)
-- [🔧 Core Functions](#-core-functions)
-- [🏗️ Architecture](#️-architecture)
-- [📦 Installation](#-installation)
-- [🐳 Docker Deployment](#-docker-deployment)
-- [🧪 Testing](#-testing)
-- [🔌 MCP Integration](#-mcp-integration)
-- [📖 API Reference](#-api-reference)
-- [🛠️ Development](#️-development)
-- [📝 License](#-license)
-
----
-
 ## 🎯 Overview
 
 Proportio is a specialized mathematical calculation server designed for LLM agents and applications requiring precise proportion calculations. Built with **assertion-based validation** and **zero-tolerance error handling**, it provides reliable mathematical operations through both a web interface and Model Context Protocol (MCP) integration.
@@ -63,6 +46,10 @@ Proportio is a specialized mathematical calculation server designed for LLM agen
 
 ---
 
+
+https://github.com/user-attachments/assets/96d30b20-1bf0-4b2b-a1ea-d0a5776f547c
+
+---
 ## ✨ Features
 
 ### 🔢 Mathematical Functions
@@ -89,6 +76,24 @@ Proportio is a specialized mathematical calculation server designed for LLM agen
 - **Responsive Layout** - Optimized for desktop and mobile devices
 - **Split Results** - Clear separation of input/output sections
 - **Error Handling** - User-friendly error messages and validation
+
+
+---
+
+## 📋 Table of Contents
+
+- [🎯 Overview](#-overview)
+- [✨ Features](#-features)
+- [🚀 Quick Start](#-quick-start)
+- [🔧 Core Functions](#-core-functions)
+- [🏗️ Architecture](#️-architecture)
+- [📦 Installation](#-installation)
+- [🐳 Docker Deployment](#-docker-deployment)
+- [🧪 Testing](#-testing)
+- [🔌 MCP Integration](#-mcp-integration)
+- [📖 API Reference](#-api-reference)
+- [🛠️ Development](#️-development)
+- [📝 License](#-license)
 
 ---
 
