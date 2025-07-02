@@ -1,0 +1,148 @@
+/* ---------- Proportio Minimal Theme ---------- */
+:root{
+  --primary: #7c1212;
+  --secondary: #a10907;
+  --accent: #8f9190;
+}
+
+/* Logo visibility and alignment fix */
+.gradio-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+}
+
+.gradio-column {
+  display: flex !important;
+  align-items: center !important;
+  height: auto !important;
+}
+
+/* Target the first column (logo) */
+.gradio-column:first-child {
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* Target the second column (text) */
+.gradio-column:last-child {
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.gradio-image {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.gradio-image img {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Ensure the brand section is vertically centered */
+.p-brand {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.p-title {
+  margin: 0 !important;
+  line-height: 1.2 !important;
+}
+
+.p-tagline {
+  margin: 0 !important;
+  line-height: 1.2 !important;
+}
+
+/* Override blue colors with primary red */
+.gradio-tabs button {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.gradio-tabs button:hover {
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+}
+
+.gradio-tabs button[aria-selected="true"] {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: var(--accent) !important;
+}
+
+.gradio-tabs button[aria-selected="true"] span {
+  color: var(--accent) !important;
+}
+
+/* Override any blue accents */
+.tab-nav button {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+/* Target selected tab text colors */
+button[role="tab"][aria-selected="true"] {
+  color: var(--accent) !important;
+}
+
+button[role="tab"][aria-selected="true"] span {
+  color: var(--accent) !important;
+}
+
+/* Override blue text in tabs */
+.gradio-tabs button span {
+  color: var(--accent) !important;
+}
+
+/* Override blue underlines/borders on selected tabs */
+.gradio-tabitem,
+.gradio-tabs .tab-nav button[aria-selected="true"]::after,
+.gradio-tabs button[aria-selected="true"]::after,
+button[role="tab"][aria-selected="true"]::after {
+  border-bottom-color: var(--secondary) !important;
+  background-color: var(--secondary) !important;
+}
+
+/* Target the tab indicator line - more specific selectors */
+.gradio-tabs .tab-nav .tab-indicator,
+.gradio-tabs .selected-tab-indicator,
+.gradio-tabs button[aria-selected="true"] + .tab-indicator,
+.gradio-tabs button[aria-selected="true"]::before,
+.gradio-tabs button[data-selected="true"]::before,
+div[role="tablist"] button[aria-selected="true"]::before,
+div[role="tablist"] button[aria-selected="true"]::after,
+.gradio-tabs .tab-nav button::before,
+.gradio-tabs .tab-nav button::after {
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+  background: var(--secondary) !important;
+}
+
+/* Override any remaining blue accents - comprehensive approach */
+.gradio-tabs button[aria-selected="true"] {
+  border-bottom: 2px solid var(--secondary) !important;
+  box-shadow: inset 0 -2px 0 var(--secondary) !important;
+}
+
+/* Target Gradio's internal tab styling */
+.gradio-tabs button[data-selected="true"],
+button[role="tab"][data-selected="true"] {
+  border-bottom-color: var(--secondary) !important;
+  box-shadow: inset 0 -2px 0 var(--secondary) !important;
+}
+
+/* Override blue focus states */
+.gradio-tabs button:focus {
+  outline-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+}
