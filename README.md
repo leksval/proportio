@@ -16,8 +16,6 @@ tags:
   - llm-tools
 ---
 
-# PROPORTIO MCP SERVER - Mathematical Precision Calculator
-
 <div align="center">
   <img src="logo_1024.png" alt="Proportio Logo" width="200" height="200">
 </div>
