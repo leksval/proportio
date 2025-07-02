@@ -2,7 +2,7 @@
 title: Proportio – Precision Proportion Calculator
 emoji: 🧮
 colorFrom: red
-colorTo: black
+colorTo: gray
 sdk: gradio
 app_file: app.py
 pinned: false
